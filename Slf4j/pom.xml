@@ -5,9 +5,8 @@
 	<artifactId>Slf4j</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-		<!-- In order to use slf4j you need the following 
-		two dependencies. If one of them is missing, your 
-		console will throw out a binding exception. -->
+		<!-- In order to use slf4j you need the following two dependencies. If 
+			one of them is missing, your console will throw out a binding exception. -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -18,5 +17,12 @@
 			<artifactId>slf4j-jdk14</artifactId>
 			<version>1.7.22</version>
 		</dependency>
+		<!-- If you don't like the dependencies above, you can just add the following dependency.
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.22</version>
+		</dependency>
+		 -->
 	</dependencies>
 </project>
